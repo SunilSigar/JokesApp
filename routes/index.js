@@ -8,9 +8,9 @@ var url = 'mongodb://sunilsigar:vfr4m5tgb@ds135946.mlab.com:35946/jokes';
 // var url = 'mongodb://localhost:27017/bestjokes';
 
 /* GET home page. */
-// router.get('/', function(req, res, next) {
-//   res.render('index');
-// });
+router.get('/', function(req, res, next) {
+  res.render('index');
+});
 
 // router.get('/get-data', function(req, res, next) {
 //   var resultArray = [];
